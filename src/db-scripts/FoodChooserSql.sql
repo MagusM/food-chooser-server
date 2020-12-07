@@ -1,0 +1,20 @@
+CREATE TABLE Foods (
+    FOOD_ID SERIAL PRIMARY KEY,
+    FOOD_NAME varchar(255),
+    FOOD_CATEGORY varchar(255)
+);
+
+INSERT INTO Foods(FOOD_NAME, FOOD_CATEGORY) 
+VALUES('פסטרמה', 'אוכל')
+
+INSERT INTO Foods(FOOD_NAME, FOOD_CATEGORY) 
+VALUES('ברוקולי', 'אוכל');
+
+INSERT INTO Foods(FOOD_NAME, FOOD_CATEGORY) 
+VALUES('רגל קרושה', 'אוכל');
+
+INSERT INTO Foods(FOOD_NAME, FOOD_CATEGORY) 
+VALUES('לחם מחמצת', 'אוכל');
+
+INSERT INTO Foods(FOOD_NAME, FOOD_CATEGORY) 
+VALUES('קציצת דג', 'אוכל');
