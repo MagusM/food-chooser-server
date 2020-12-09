@@ -8,7 +8,7 @@ const postgresConnectionLocal = {
 
 const postgresConnection = {
     user: 'wmcqthqf',
-    host: 'postgres://wmcqthqf:zXT41Mneqso7kQjoULlxG-n8nMMK1XOk@kandula.db.elephantsql.com:5432',
+    host: 'kandula.db.elephantsql.com',
     database: 'wmcqthqf',
     password: 'zXT41Mneqso7kQjoULlxG-n8nMMK1XOk',
     port: 5432,
